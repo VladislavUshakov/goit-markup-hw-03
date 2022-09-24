@@ -1,0 +1,202 @@
+:root {
+    --primary-light-color: #FFFFFF;
+    --secondary-light-color: #F5F4FA;
+    --third-light-color: #757575;
+    --primary-dark-color: #000000;
+    --secondary-dark-color: #2F303A;
+    --primary-text-color: #212121;
+    --primary-active-color: #2196F3;
+    --secondary-active-color: #188CE8;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+
+/* Logo */
+.logo {
+    color: var(--primary-active-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.page-header .excerpt {
+    color: var(--primary-dark-color);
+}
+
+.page-footer .excerpt {
+    color: var(--primary-light-color);
+}
+
+
+/* Button */
+.button {
+    color: var(--primary-text-color);
+    background-color: var(--secondary-light-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+}
+
+.hero .button {
+    color: var(--primary-light-color);
+    background-color: var(--primary-active-color);
+
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.hero .button:hover, 
+.hero .button:focus {
+    background-color: var(--secondary-active-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+    color: var(--primary-light-color);
+    background-color: var(--primary-active-color);
+}
+
+
+/* List */
+.list {
+    list-style-type: none;
+}
+
+
+/* Link */
+.link {
+    text-decoration: none;
+}
+
+
+/* Title */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+/* Header */
+.page-header .link {
+    color: inherit;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.page-header .link:hover,
+.page-header .link:focus {
+    color: var(--primary-active-color);
+}
+
+.page-header .header-link {
+    color: var(--third-light-color);
+}
+
+.page-header .active {
+    color: var(--primary-active-color);
+}
+
+
+/* Hero */
+.hero {
+    background-color: var(--secondary-dark-color);
+}
+
+.hero .title {
+    color: var(--primary-light-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+/* Quality */
+.quality .subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.quality .text {
+    color: var(--third-light-color);
+    line-height: 1.71;
+}
+
+
+/* Team */
+.team {
+    background-color: var(--secondary-light-color);
+}
+
+.team .list {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team .text {
+    color: var(--third-light-color);
+}
+
+
+/* Portfolio */
+.portfolio .title {
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+    color: var(--third-light-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+/* Footer */
+.page-footer {
+    background-color:  var(--secondary-dark-color);
+}
+
+.page-footer .link {
+    color: rgba(255, 255, 255, .6);
+    font-style: normal;
+    line-height: 1.71
+}
+
+.page-footer .link:hover,
+.page-footer .link:focus {
+    color: var(--primary-active-color);
+}
+
+.page-footer .map {
+    color: var(--primary-light-color);
+}
+
+
+
+
