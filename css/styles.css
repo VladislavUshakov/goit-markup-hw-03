@@ -2,6 +2,7 @@
     --primary-light-color: #FFFFFF;
     --secondary-light-color: #F5F4FA;
     --third-light-color: #757575;
+    --fourth-light-color: #ECECEC;
     --primary-dark-color: #000000;
     --secondary-dark-color: #2F303A;
     --primary-text-color: #212121;
@@ -14,6 +15,50 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+/* List */
+.list {
+    list-style-type: none;
+}
+
+
+/* Link */
+.link {
+    text-decoration: none;
+}
+
+
+/* Title */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+/* Container */
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container.header {
+    width: auto;
+
+    border-bottom: 1px solid var(--fourth-light-color);
 }
 
 
@@ -38,6 +83,8 @@ body {
 
 /* Button */
 .button {
+    min-width: 73px;
+
     color: var(--primary-text-color);
     background-color: var(--secondary-light-color);
 
@@ -48,9 +95,12 @@ body {
     letter-spacing: 0.03em;
     cursor: pointer;
     border: none;
+    border-radius: 4px;
 }
 
 .hero .button {
+    padding: 10px 32px;
+
     color: var(--primary-light-color);
     background-color: var(--primary-active-color);
 
@@ -64,6 +114,10 @@ body {
     background-color: var(--secondary-active-color);
 }
 
+.portfolio .button {
+    padding: 6px 22px;
+}
+
 .portfolio .button:hover,
 .portfolio .button:focus {
     color: var(--primary-light-color);
@@ -71,33 +125,35 @@ body {
 }
 
 
-/* List */
-.list {
-    list-style-type: none;
-}
-
-
-/* Link */
-.link {
-    text-decoration: none;
-}
-
-
-/* Title */
-.title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-
 /* Header */
+.page-header {
+    display: flex;
+    
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .page-header .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: inherit;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.page-header > .list {
+    display: flex;
+    margin-left: auto;
+}
+
+.page-header .item:not(:first-child) {
+    margin-left: 50px;
 }
 
 .page-header .link:hover,
@@ -114,12 +170,31 @@ body {
 }
 
 
+/* Nav */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav .list {
+    display: flex;
+    margin-left: 93px;
+}
+
+.nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
 /* Hero */
 .hero {
     background-color: var(--secondary-dark-color);
+    text-align: center;
 }
 
 .hero .title {
+    margin-bottom: 30px;
+
     color: var(--primary-light-color);
     font-weight: 900;
     font-size: 44px;
