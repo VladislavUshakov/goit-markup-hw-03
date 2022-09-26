@@ -34,17 +34,17 @@ img {
   display: block;
 }
 
-/* List */
+/* ---------------------LIST--------------------- */
 .list {
   list-style-type: none;
 }
 
-/* Link */
+/* ---------------------LINK--------------------- */
 .link {
   text-decoration: none;
 }
 
-/* Title */
+/* ---------------------TITLE--------------------- */
 .title {
   margin-bottom: 50px;
 
@@ -58,7 +58,7 @@ img {
   display: none;
 }
 
-/* Container */
+/* ---------------------CONTAINER--------------------- */
 .container {
   width: 1200px;
   padding: 0 15px;
@@ -66,7 +66,7 @@ img {
   margin-right: auto;
 }
 
-/* Logo */
+/* ---------------------LOGO--------------------- */
 .logo {
   color: var(--primary-active-color);
   text-decoration: none;
@@ -84,7 +84,7 @@ img {
   color: var(--primary-light-color);
 }
 
-/* Button */
+/* ---------------------BUTTON--------------------- */
 .button {
   min-width: 73px;
 
@@ -127,7 +127,7 @@ img {
   background-color: var(--primary-active-color);
 }
 
-/* Header */
+/* ---------------------HEADER--------------------- */
 .page-header {
   border-bottom: 1px solid var(--fourth-light-color);
 }
@@ -166,7 +166,7 @@ img {
   color: var(--primary-active-color);
 }
 
-/* Nav */
+/* ---------------------NAV--------------------- */
 .nav {
   display: flex;
   align-items: center;
@@ -178,7 +178,7 @@ img {
   column-gap: 50px;
 }
 
-/* Hero */
+/* ---------------------HERO--------------------- */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -198,7 +198,7 @@ img {
   text-transform: uppercase;
 }
 
-/* Quality */
+/* ---------------------QUALITY--------------------- */
 .quality {
   padding-top: 94px;
 }
@@ -226,7 +226,7 @@ img {
   line-height: 1.71;
 }
 
-/* Job */
+/* ---------------------JOB--------------------- */
 .job {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -238,7 +238,7 @@ img {
   column-gap: 30px;
 }
 
-/* Team */
+/* ---------------------TEAM--------------------- */
 .team {
   background-color: var(--secondary-light-color);
   padding-top: 94px;
@@ -279,7 +279,7 @@ img {
   color: var(--third-light-color);
 }
 
-/* Portfolio */
+/* ---------------------PORTFOLIO--------------------- */
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -325,7 +325,7 @@ img {
   line-height: 1.88;
 }
 
-/* Footer */
+/* ---------------------FOOTER--------------------- */
 .page-footer {
   background-color: var(--secondary-dark-color);
   padding-top: 60px;
